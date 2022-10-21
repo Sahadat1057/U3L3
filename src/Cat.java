@@ -29,12 +29,23 @@ public class Cat {
     public String speak()
     {
        int randomGenerator = (int) Math.random() * 3 + 1;
-            if (randomGenerator > 1);{
-                
-    }
+            String saying1 = "Meow!";
+            String saying2 = "Purrr";
+            String saying3 = "Grrrr!";
+            if (randomGenerator == 1)
+            {
+            return saying1;
+            }
+           else if (randomGenerator == 2)
+            {
+            return saying2;
+             }
+           else 
+             {
+            return saying3;
+             }
 
-       String getRandom = "" + randomGenerator;
-        return getRandom;
+
     }
 
     public void introduce()
